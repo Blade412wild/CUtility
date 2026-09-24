@@ -3,8 +3,9 @@
 
 typedef struct Vector2
 {
-    float x = 0;
-    float y = 0;
+    // test gitsubmodule
+    float x;
+    float y;
 } Vector2;
 
 #endif // Vector2_H
