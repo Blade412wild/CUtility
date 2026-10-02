@@ -3,16 +3,19 @@
 
 #include <stdbool.h>
 
+
+
 typedef struct 
 {
-    int targetTime;
+    long targetTime;
+    long previousTime;
     bool repeat;
     bool finished;
+    int customEvent;
+    int Index;
 
     /* data */
 }Timer;
-
-
 
 
 #endif // Timer_H
